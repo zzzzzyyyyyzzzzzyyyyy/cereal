@@ -1,6 +1,6 @@
-/*
+
 import core.data.*;
- 
+ /* 
 public class Welcome02_Object {
    public static void main(String[] args) {
       String id1 = "KATL";
@@ -19,6 +19,16 @@ public class Welcome02_Object {
       
       Observation ob2 = ds2.fetch("Observation", "weather", "temp_f", "wind_degrees");
       System.out.println(id2 + ": " + ob2);
+
+      // --------------
+      String id3 = "KIMM";
+      DataSource ds3 = DataSource.connect("http://weather.gov/xml/current_obs/" + id2 + ".xml");
+      ds3.setCacheTimeout(15 * 60);
+      ds3.load();
+
+      Observation ob3 = ds2.fetch("Observation", "weather", "temp_f", "wind_degrees");
+      System.out.println(id3 + ": " + ob3);
+      // --------------
       
       if (ob1.colderThan(ob2)) {
          System.out.println("Colder at " + id1);

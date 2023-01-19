@@ -1,8 +1,8 @@
 import core.data.*;
-
+/* 
 public class Welcome01 {
    public static void main(String[] args) {
-      String id = "KATL";
+      String id = "KIMM";
       DataSource ds = DataSource.connect("http://weather.gov/xml/current_obs/" + id + ".xml"); 
       ds.setCacheTimeout(15 * 60);  
       ds.load();
@@ -12,3 +12,4 @@ public class Welcome01 {
       System.out.println("The temperature at " + loc + " is " + temp + "F");
    }
 }
+*/
