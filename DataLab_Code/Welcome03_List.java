@@ -5,7 +5,7 @@
 import core.data.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-/* 
+
 public class Welcome03_List {
    public static void main(String[] args) {
       DataSource ds = DataSource.connect("http://weather.gov/xml/current_obs/index.xml").load();
@@ -45,4 +45,4 @@ public class Welcome03_List {
       System.out.println(count);
    }
 }
-*/
+

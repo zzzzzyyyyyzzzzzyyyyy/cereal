@@ -1,5 +1,5 @@
 import core.data.*;
-/* 
+
 public class Welcome01 {
    public static void main(String[] args) {
       String id = "KIMM";
@@ -12,4 +12,4 @@ public class Welcome01 {
       System.out.println("The temperature at " + loc + " is " + temp + "F");
    }
 }
-*/
+
